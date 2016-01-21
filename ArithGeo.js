@@ -1,6 +1,6 @@
 function ArithGeo(arr) { 
   // I declare a var arrDif and arrQuo that will contain the differences and quotients of each item in the arr param being passed.
-	var arrDif = [];
+  var arrDif = [];
   var arrQuo = [];
   
   // I declare an ariFlag and a geoFlag that are initialized to true. 
