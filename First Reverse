@@ -1,0 +1,6 @@
+function FirstReverse(str) {
+  // step 1: split the string into an array so I can easily manipulate it
+  // step 2: call the reverse method in order to reverse each character in the array
+  // step 3: call the join method to reassemble the newly reversed string
+	return str.split("").reverse().join("");
+}
