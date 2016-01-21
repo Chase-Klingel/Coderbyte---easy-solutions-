@@ -8,7 +8,7 @@ function LetterChanges(str) {
   // I declare var answer and initialize it to an empty string.
   var answer = "";
   
-  // I declare a for loop that will pass over each character in the string
+  // I declare a for loop that will pass over each character in the string...
   for (var i = 0; i < str.length; i++) {
     // if the current character matches a character in the var alpha
     if (alpha.indexOf(str[i]) !== -1) {
