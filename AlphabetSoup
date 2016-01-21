@@ -1,0 +1,5 @@
+function AlphabetSoup(str) { 
+  // I split the string into an array in order to use the sort method and then 
+  // I use the join method to reasemble the alphabetized str. 
+	return str.split("").sort().join("");
+}
