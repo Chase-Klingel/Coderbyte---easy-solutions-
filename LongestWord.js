@@ -1,8 +1,10 @@
 function LongestWord(sen) { 
-    // I declare a largestWord var and initialize it to an emptry string. I will use this var to return the largestWord.  
+    // I declare a largestWord var and initialize it to an emptry string. 
+    // I will use this var to return the largestWord.  
     var largestWord = "";
     
-    // I declare a longestLength var and initialize it to 0. I will use this var to keep track of which word is currently the longest in length.
+    // I declare a longestLength var and initialize it to 0. 
+    // I will use this var to keep track of which word is currently the longest in length.
     var longestLength = 0;
     
     // I use a regex expression to replace any character in sen that isn't a-z, A-Z, 0-9, or a space.
