@@ -1,12 +1,12 @@
 function SimpleSymbols(str) {
   // I declare a var str and split the str parameter into an array of individual characters.
-	var str = str.split("");
-	
-	// I declare a var alpha and initialize it to a regex expression that contains all letters from a-z
-	// Note: the "/i" says ignore capitalization. 
+  var str = str.split("");
+
+  // I declare a var alpha and initialize it to a regex expression that contains all letters from a-z
+  // Note: the "/i" says ignore capitalization. 
   var alpha = /[a-z]/i;
   
-  // I declare a for loop that will pass over each individual character... 
+  // I declare a for loop that will pass over each individual character in var str... 
  for (var i = 0; i < str.length; i++) {
     // I test whether the current character is contained in my regex expression.
     if (alpha.test(str[i])) {
