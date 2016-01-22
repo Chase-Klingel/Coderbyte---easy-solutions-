@@ -1,7 +1,7 @@
 function DashInsert(str) {
   // I declare a var str that converts the str param being passed (that is confusingly a number) into a string 
   // by calling the .toString() method. 
-	var str = str.toString();
+  var str = str.toString();
 
   // I then split the string into an array. 
   str = str.split("");
@@ -19,7 +19,7 @@ function DashInsert(str) {
       } else {
         answer.push(str[i]);
       }
-    }
+  }
     // Finally, I call the join method on var answer to convert the array to a string and return the value.
-  	return answer.join("");
+    return answer.join("");
 }
