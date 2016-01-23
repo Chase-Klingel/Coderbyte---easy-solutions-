@@ -8,7 +8,7 @@ function MeanMode(arr) {
   // I declare a var sum that will be used to calculate the mean.
 	var sum = 0;
 	
-	// I declare a var mean that will hold the mean of my array.
+  // I declare a var mean that will hold the mean of my array.
   var mean = 0;
   
   // I declare a var mode that will hold the mode of my array.
