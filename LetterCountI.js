@@ -1,8 +1,8 @@
 function LetterCountI(str) { 
   // I declare a var words that splits str into an array of individual strings. 
-	var words = str.split(" ");
+  var words = str.split(" ");
 	
-	// I declare a var largestDif that will keep track of 
+  // I declare a var largestDif that will keep track of 
   var largestDif = 0;
   
   // I declare a var result that will contain the word with the most repeating letters.
@@ -42,7 +42,7 @@ function LetterCountI(str) {
       }
     }
     // if largestDif was ever changed, I know that there was a word with repeated letters and thus I return the result.
-  	if (largestDif > 0) {
+    if (largestDif > 0) {
       return result;
     // Else, no repetition was found in any word and I return -1.
     } else {
