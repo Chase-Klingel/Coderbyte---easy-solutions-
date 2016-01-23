@@ -13,7 +13,7 @@ function SwapCase(str) {
       	// I call the .toUpperCase() method on the current character and add it to var answer.
         answer += str[i].toUpperCase();
       }
-    }
-    // Finally, I return the answer. 
-    return answer;
+  }
+  // Finally, I return the answer. 
+  return answer;
 }
