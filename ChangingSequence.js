@@ -2,9 +2,9 @@ function ChangingSequence(arr) {
   /*I declare a var diff that subtracts the number at index 1 from the number at index 0.
     Based on whether it is negative or positive, I will know if the array starts off increasing or decreasing. 
   */
-	var diff = arr[1] - arr[0];
-	
-	// I declare a var sign that will keep track of whether the array starts out increasing or decreasing.
+  var diff = arr[1] - arr[0];
+  
+  // I declare a var sign that will keep track of whether the array starts out increasing or decreasing.
   var sign;
   
   // I declare a var sign2 that will keep track of whether or not the array changes from increasing to decreasing at any point in the array. 
